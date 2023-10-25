@@ -11,7 +11,7 @@ weight: 1
 
 ## Déclaration d'un projet
 
-{{< highlight go "linenos=table,linenostart=1" >}}
+{{< highlight terraform "linenos=table,linenostart=1" >}}
 locals {
   davar_group_name = "grp-gcp-davar-bq"
   davar_name       = "davar"

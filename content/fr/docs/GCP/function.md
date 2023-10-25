@@ -10,7 +10,7 @@ weight: 5
 
 ## Déclaration d'un projet
 
-{{< highlight go "linenos=table,linenostart=1" >}}
+{{< highlight terraform "linenos=table,linenostart=1" >}}
 module "bmfl-function" {
   source                = "./modules/function_to_bigquery"
   project_id            = module.davar-datawarehouse.project_id
@@ -46,5 +46,5 @@ Intégration de plusieurs fichiers sources sur un drive vers Big Query
 
 * DTEFPNC
   * Chômage partiel et Autorisation de travail
-  
+
 Export de projets jira liés à des téléservices vers Big Query

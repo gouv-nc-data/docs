@@ -5,3 +5,6 @@ date: 2023-10-25
 weight: 7s
 ---
 
+# Schéma global
+
+![Image alt](GCP_gitops_deployment.png)

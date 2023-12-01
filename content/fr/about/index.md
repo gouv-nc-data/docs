@@ -13,9 +13,14 @@ Qui se cache derrière l'équipe data ?
 
 {{% blocks/lead %}}
 
-TODO: Mission Equipe data
+Mission Equipe data  
 
 {{% /blocks/lead %}}
+
+Promouvoir l'usage de la donnée au sein des directions et à destination du grand public.  
+Objectifs :
+- valoriser la production et la réutilisation
+- prendre des décisions éclairées et pertinentes
 
 {{% blocks/section %}}
 

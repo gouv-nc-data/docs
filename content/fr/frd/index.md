@@ -6,7 +6,9 @@ menu: {main: {weight: 10}}
 
 {{% blocks/cover title="Feuille de route" image_anchor="bottom" height="auto" %}}
 
-TODO
+L'élaboration d'une Feuille de Route Data est en cours, celle ci permettra de cadrer la direction du GNC pour promouvoir l'usage de la donnée.  
+Elle sera disponible avant la din de l'année 2023.
+
 {.mt-5}
 
 {{% /blocks/cover %}}
@@ -19,7 +21,7 @@ TODO: Feuille de route
 
 {{% blocks/section %}}
 
-# This is another section
+<!-- # This is another section
 {.text-center}
 
 {{% /blocks/section %}}
@@ -29,4 +31,4 @@ TODO: Feuille de route
 # This is another section
 {.text-center}
 
-{{% /blocks/section %}}
+{{% /blocks/section %}} -->

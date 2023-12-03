@@ -11,4 +11,4 @@ weight: 7s
 
 # Projet modules
 
-![Image alt](projet_modules.PNG)
+![Image alt](projet_modules.png)

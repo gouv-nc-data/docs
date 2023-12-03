@@ -6,7 +6,7 @@ weight: 5
 ---
 # Module terraform de création de la fonction
 
-![Image alt](function.PNG)
+![Image alt](function.png)
 
 [Sources sur github](https://github.com/gouv-nc-data/data-gitops/tree/main/modules/function_to_bigquery)
 

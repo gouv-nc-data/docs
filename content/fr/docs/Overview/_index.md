@@ -13,7 +13,7 @@ documentation liée aux outils et processus data
 ## Exemple
 Schéma d'architecture d'un processus Extract Transform and Load (ETL)
 
-![Image alt](diag_arch_hl.png)
+![Image alt](diag_arch_hl.PNG)
 
 ## Sommaire
 

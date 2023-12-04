@@ -7,7 +7,8 @@ weight: 1
 
 # Module terraform de création de projet
 
-![Image alt](GCP/base_project.png)
+![Image alt](GCP/base_project.png)  
+![Image alt]({{ $image := .Resources.Get "base_project.png" }})
 
 [Sources sur github](https://github.com/gouv-nc-data/data-gitops/tree/main/modules/bigquery_project)
 

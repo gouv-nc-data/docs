@@ -9,6 +9,9 @@ menu: {main: {weight: 10}}
 L'élaboration d'une Feuille de Route Data est en cours, celle ci permettra de cadrer la direction du GNC pour promouvoir l'usage de la donnée.  
 Elle sera disponible avant la din de l'année 2023.
 
+## Afterwork DATA - La donnée, une opportunité pour répondre aux défis du territoire calédonien
+{{< youtube HQaQj8_NQt4 >}}
+
 {.mt-5}
 
 {{% /blocks/cover %}}

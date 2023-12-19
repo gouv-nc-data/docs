@@ -38,7 +38,7 @@ module "davar-datawarehouse" {
 
 ## Resources crées
 - Un projet gcp dont le nom doit respecter la convention :
-Exemple : prj-davar-p-bq
-/!\ 30 caractères max - 14 pour la structure (incluant 5 caractères aléatoires en fin) soit **16 disponibles**.
+Exemple : prj-davar-p
+/!\ 30 caractères max - 11 pour la structure (incluant 5 caractères aléatoires en fin) soit **19 disponibles**.
 - Un groupe workspace dans lequel sont ajouté les primary et secondary contact
 Ce groupe a des privilèges, il peut notamment supprimer des jeux de données.

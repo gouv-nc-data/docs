@@ -7,6 +7,12 @@ weight: 1
 
 # Module terraform de création de projet
 
+![Image alt](./GCP/base_project.png)  
+
+{{ with .Resources.GetMatch "base_project.png" }}
+  <img src="data:{{ .MediaType.Type }};base64,{{ .Content | base64Encode }}">
+{{ end }}
+
 [Sources sur github](https://github.com/gouv-nc-data/data-gitops/tree/main/modules/bigquery_project)
 
 ## Déclaration d'un projet
@@ -31,5 +37,8 @@ module "davar-datawarehouse" {
 {{< / highlight >}}
 
 ## Resources crées
-- Un projet gcp dont le nom doit respecter la convention !TODO
+- Un projet gcp dont le nom doit respecter la convention :
+Exemple : prj-davar-p
+/!\ 30 caractères max - 11 pour la structure (incluant 5 caractères aléatoires en fin) soit **19 disponibles**.
 - Un groupe workspace dans lequel sont ajouté les primary et secondary contact
+Ce groupe a des privilèges, il peut notamment supprimer des jeux de données.

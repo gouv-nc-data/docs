@@ -8,3 +8,7 @@ weight: 7s
 # Schéma global
 
 ![Image alt](GCP_gitops_deployment.png)
+
+# Projet modules
+
+![Image alt](projet_modules.png)

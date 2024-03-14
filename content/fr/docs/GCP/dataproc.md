@@ -5,13 +5,18 @@ date: 2023-10-25
 weight: 5
 ---
 
-# Module de transfert de données depuis une base vers Big Query
+# Module de transfert de données depuis une base métier vers BigQuery
+
+![Image alt](dataproc.png)
 
 [Sources sur github](https://github.com/gouv-nc-data/data-gitops/tree/main/modules/dataproc_to_bigquery)
 
 ## Déclaration du spoke
+
 Si la base de données source est en interne, il faut alors y accéder par le vpn et nécessite donc la création d'un VPC Spoke,.
 Ce VPC a un subnet spécifique qui est autorisé à se connecter à la base
+
+![Image alt](spoke.png)
 
 {{< highlight terraform "linenos=table,linenostart=1" >}}
 module "spoke-vpc-iceo" {

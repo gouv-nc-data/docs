@@ -13,20 +13,22 @@ Lors de la création d'un nouveau projet "type bigquery" plusieurs ressources so
 Les groupes crés (par Terraform) ont chacun des buts précis, d'autres groupes plus spécifiques peuvent également être créé de la même façon que les autres gropupe GWS afin d'affiner les rôles des intervenants.
 
 **grp-gcp-{direction}-bq-admin**
-Ce groupe comporte les administrateurs de Bigquery, les membres ont les niveaux de droit les plus élevés sur l'outil, peuvent notamment supprimer la donnée. Ils ont accès à toute la donnée Bigquery du projet.
-Ils ont égalementun rôle "editor" au niveau du projet.
+Ce groupe comporte les administrateurs de Bigquery, les membres ont les niveaux de droit les plus élevés sur l'outil, peuvent notamment supprimer la donnée. Ils ont accès à toute la donnée Bigquery du projet.  
+Ils ont également un rôle "editor" au niveau du projet.  
 Le nombre de membre de ce groupe doit être le plus réduit possible.
 
 **grp-gcp-{direction}-bq-editor**
-Les membres de ce groupe ont la possibilité de créer des dataset, des tables ou des requêtes.
+Les membres de ce groupe ont la possibilité de créer des dataset, des tables ou des requêtes.  
 Ils ont accès à toute la donnée Bigquery du projet.
 
 **grp-gcp-{direction}-bq-viewer**
-Les membres peuvent voir les données de projet et exécuter des requêtes (si elles ne modifient pas la donnée).
-Ils ont accès à toute la donnée Bigquery du projet.
+Les membres peuvent voir les données de projet et exécuter des requêtes (si elles ne modifient pas la donnée).  
+Ils ont accès à toute la donnée Bigquery du projet.  
 Il est possible d'ajouter des membre hors GNC à ce groupe.
 
-Pour toute gestion plus précise, par exemple si certains utilisateur de doivent pouvoir voir qu'une partie de la donnée du projet il faudra soit créer un nouveau groupe, partager chaque donnée nécessaire avec ce groupe puis ajouter des membres soit partager directement des données avec une adresse mail (plus simple mais maintenance plus complexe).
+Pour toute gestion plus précise, par exemple si certains utilisateur ne doivent pouvoir voir qu'une partie des données du projet il faudra :
+- soit créer un nouveau groupe, partager chaque donnée nécessaire avec ce groupe puis ajouter des membres 
+- soit partager directement des données avec une adresse mail (plus simple mais maintenance plus complexe)
 
 # Module terraform de création de projet
 

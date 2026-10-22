@@ -32,11 +32,7 @@ Pour toute gestion plus précise, par exemple si certains utilisateur ne doivent
 
 # Module terraform de création de projet
 
-![Image alt](./GCP/base_project.png)  
-
-{{ with .Resources.GetMatch "base_project.png" }}
-  <img src="data:{{ .MediaType.Type }};base64,{{ .Content | base64Encode }}">
-{{ end }}
+![Image alt](base_project.png)
 
 [Sources sur github](https://github.com/gouv-nc-data/data-gitops/tree/main/modules/bigquery_project)
 

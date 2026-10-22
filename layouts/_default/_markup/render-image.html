@@ -1,0 +1,13 @@
+{{- /* Résout les images relatives depuis la page ou sa section parente (bundle). */ -}}
+{{- $src := .Destination -}}
+{{- $u := urls.Parse .Destination -}}
+{{- if not $u.IsAbs -}}
+  {{- $path := strings.TrimPrefix "./" $u.Path -}}
+  {{- $res := .Page.Resources.Get $path -}}
+  {{- if and (not $res) .Page.Parent -}}
+    {{- $res = .Page.Parent.Resources.Get $path -}}
+  {{- end -}}
+  {{- with $res }}{{ $src = .RelPermalink }}{{ end -}}
+{{- end -}}
+<img src="{{ $src }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }}>
+{{- /**/ -}}

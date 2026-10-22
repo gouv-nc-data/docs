@@ -18,6 +18,6 @@ Schéma d'architecture d'un processus Extract Transform and Load (ETL)
 ## Sommaire
 
 
-* [Big Query](/docs/BigQuery/): Documentation liée à BigQuery
-* [Examples](/docs/GCP/): Tout ce qui concerne GCP
+* [Big Query]({{< relref "/docs/BigQuery" >}}): Documentation liée à BigQuery
+* [Examples]({{< relref "/docs/GCP" >}}): Tout ce qui concerne GCP
 

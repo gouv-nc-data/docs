@@ -57,7 +57,7 @@ jobs:
 
       - name: Build Site
         run: |
-          npm run build:production  
+          npm run build:production -- --baseURL "${{ steps.pages.outputs.base_url }}/"
               
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
